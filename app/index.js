@@ -6,6 +6,7 @@ app.use(express.json());
 
 //localhost:3000/
 app.get("/", (req, res) => {
+  console.log("works great");
   res.status(200).json({
     message: "GET - root",
     metadata: {
