@@ -14,9 +14,19 @@ function subtract(a, b) {
   return a - b;
 }
 
+function findMax(a, b) {
+  return Math.max(a, b);
+}
+
+function squareRoot(num) {
+  return Math.sqrt(num);
+}
+
 module.exports = {
   add,
   divide,
   mulitply,
   subtract,
+  findMax,
+  squareRoot,
 };
